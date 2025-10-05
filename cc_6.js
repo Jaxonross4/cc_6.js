@@ -8,3 +8,4 @@ class Employee {
     return `${this.name} works in ${this.department}.`;
   }
 }
+
