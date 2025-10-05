@@ -34,3 +34,18 @@ class Company {
     }
   }
 }
+
+// Step 3 + 5
+const justin = new Employee("Justin Kluivert", "Striker");
+const luis = new Employee("Luis Suarez", "False Nine");
+const david = new Manager("David Beckham", "Engine", 6);
+const leo = new Manager("Leo Messi", "Creator", 4);
+
+const fifa = new Company();
+fifa.addEmployee(alice);
+fifa.addEmployee(bob);
+fifa.addEmployee(maya);
+fifa.addEmployee(leo);
+
+fifa.listEmployees();
+
